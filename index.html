@@ -3,7 +3,7 @@ layout: layout
 
 date: "SATURDAY, MARCH 11th, 2023"
 eventbriteurl: "
-https://www.eventbrite.com/e/tech-symposium-2022-tickets-253470796977"
+https://www.eventbrite.com/e/tech-symposium-2023-tickets-518452243617"
 scheduleurl: "https://docs.google.com/spreadsheets/d/1FgvxgfzW-MMtPVaPO05nHTsoEnAoeTJ9JwhLd4uRZjc/pubhtml?gid=306864303&amp;single=true&amp;widget=false&amp;headers=false&amp;range=a1:g11&amp;chrome=false"
 callforabstractform: "https://forms.gle/bsaAyG5vmEuSQmta7"
 mapurl: "https://www.google.com/maps/embed/v1/place?q=college%20of%20business%20administration%20cal%20poly%20pomona&key=AIzaSyDZy93lj8zKcjgaKbNG7eTnlIhwNSWNJNA"
@@ -113,7 +113,39 @@ a:focus {
 
 
 <!-- Eventbrite Section -->
+<section id="eventbrite" class="container content-section text-center">
+        <div class="container">
+            <div class="col-lg-8 col-lg-offset-2">
+                <!-- <h2>Register <a href='https://www.eventbrite.com/e/tech-symposium-2023-tickets-518452243617'>here!</a></h2> -->
+                <!-- Noscript content for added SEO -->
+                <!--
+                <noscript><a href="https://www.eventbrite.com/e/tech-symposium-2023-tickets-518452243617" rel="noopener noreferrer" target="_blank">Get Tickets on Eventbrite</a></noscript>
+                -->
+                <!-- You can customize this button any way you like -->
+                
+                <div class="text-center">
+                    <div style="width:100%; text-align:center;height:100px;">
+                        <h2>
+                            Register <a id="eventbrite-widget-modal-trigger-518452243617">Here!</a>
+                        </h2>
+                        <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
 
+                        <script type="text/javascript">
+                            var exampleCallback = function() {
+                                console.log('Order complete!');
+                            };
+
+                            window.EBWidgets.createWidget({
+                                widgetType: 'checkout',
+                                eventId: '518452243617',
+                                modal: true,
+                                modalTriggerElementId: 'eventbrite-widget-modal-trigger-518452243617',
+                                onOrderComplete: exampleCallback
+                            });
+                        </script>
+            </div>
+        </div>
+</section> 
             
 <!-- Schedule -->
 <section id="schedule" class="container content-section text-center">
