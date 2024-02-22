@@ -221,3 +221,11 @@ p {
     }
 }
 
+.speaker-img {
+    width:2rem;
+
+    height:2rem;
+    display:block;
+    margin: 0 auto;
+}
+
