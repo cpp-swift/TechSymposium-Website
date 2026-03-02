@@ -229,11 +229,11 @@ p {
     margin: 0 auto;
 }
 
-/* REGISTER BUTTON CUSTOM STYLE */
+/* REGISTER BUTTON OVERRIDE */
 .btn-register {
-    background: var(--color-white);
-    color: var(--color-black) !important;
-    border: 2px solid var(--color-white);
+    background: var(--color-primary) !important; /* orange */
+    color: var(--color-black) !important;        /* black text */
+    border: 2px solid var(--color-primary) !important;
     padding: 10px 24px;
     font-weight: bold;
     border-radius: var(--border-round);
@@ -242,9 +242,8 @@ p {
 
 .btn-register:hover,
 .btn-register:focus {
-    background: var(--color-primary); /* your orange */
-    color: var(--color-black) !important;
-    border-color: var(--color-primary);
+    background: var(--color-black) !important;   /* black */
+    color: var(--color-white) !important;        /* white text */
+    border-color: var(--color-black) !important;
     text-decoration: none;
 }
-
