@@ -229,22 +229,22 @@ p {
     margin: 0 auto;
 }
 
-/* REGISTER BUTTON BOX STYLE */
-.btn-register {
+/* REGISTER BUTTON BOX STYLE — OVERRIDES THEME */
+.btn.btn-register {
     background-color: var(--color-primary) !important; /* orange box */
     color: var(--color-black) !important;              /* black text */
     border: 2px solid var(--color-primary) !important;
-    padding: 12px 28px;
-    font-weight: bold;
-    border-radius: 6px; /* gives it a real button shape */
-    display: inline-block;
-    transition: all .2s ease-in-out;
+    padding: 12px 28px !important;
+    font-weight: bold !important;
+    border-radius: 6px !important; /* gives it a real button shape */
+    display: inline-block !important;
+    transition: all .2s ease-in-out !important;
 }
 
-.btn-register:hover,
-.btn-register:focus {
+.btn.btn-register:hover,
+.btn.btn-register:focus {
     background-color: var(--color-black) !important;   /* black box */
     color: var(--color-white) !important;              /* white text */
     border-color: var(--color-black) !important;
-    text-decoration: none;
+    text-decoration: none !important;
 }
