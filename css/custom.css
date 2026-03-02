@@ -229,21 +229,22 @@ p {
     margin: 0 auto;
 }
 
-/* REGISTER BUTTON OVERRIDE */
+/* REGISTER BUTTON BOX STYLE */
 .btn-register {
-    background: var(--color-primary) !important; /* orange */
-    color: var(--color-black) !important;        /* black text */
+    background-color: var(--color-primary) !important; /* orange box */
+    color: var(--color-black) !important;              /* black text */
     border: 2px solid var(--color-primary) !important;
-    padding: 10px 24px;
+    padding: 12px 28px;
     font-weight: bold;
-    border-radius: var(--border-round);
+    border-radius: 6px; /* gives it a real button shape */
+    display: inline-block;
     transition: all .2s ease-in-out;
 }
 
 .btn-register:hover,
 .btn-register:focus {
-    background: var(--color-black) !important;   /* black */
-    color: var(--color-white) !important;        /* white text */
+    background-color: var(--color-black) !important;   /* black box */
+    color: var(--color-white) !important;              /* white text */
     border-color: var(--color-black) !important;
     text-decoration: none;
 }
