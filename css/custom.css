@@ -229,3 +229,22 @@ p {
     margin: 0 auto;
 }
 
+/* REGISTER BUTTON CUSTOM STYLE */
+.btn-register {
+    background: var(--color-white);
+    color: var(--color-black) !important;
+    border: 2px solid var(--color-white);
+    padding: 10px 24px;
+    font-weight: bold;
+    border-radius: var(--border-round);
+    transition: all .2s ease-in-out;
+}
+
+.btn-register:hover,
+.btn-register:focus {
+    background: var(--color-primary); /* your orange */
+    color: var(--color-black) !important;
+    border-color: var(--color-primary);
+    text-decoration: none;
+}
+
