@@ -380,3 +380,8 @@ body {
     color: #000;
     background-color: #E45826;
 }
+#contact {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    min-height: 60vh;
+}
